@@ -1,0 +1,22 @@
+.Right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.navIcons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navIcons>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* if it is a link? note: a is for link */
+.navIcons>a>img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
